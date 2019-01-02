@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "RyzeExtension"
   s.version      = "1.0.0"
-  s.summary      = "A short description of RyzeExtension."
+  s.summary      = "A handy collection of  Swift extensions."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
