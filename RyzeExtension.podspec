@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.name         = "RyzeExtension"
   s.version      = "1.0.0"
   s.summary      = "A handy collection of  Swift extensions."
+  s.swift_version = "4.2"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  Swift extensions.
+RyzeExtension: A handy collection of  Swift extensions. 
                    DESC
 
   s.homepage     = "https://github.com/ZengR/RyzeExtension"
