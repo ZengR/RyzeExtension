@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-  A handy collection of  Swift extensions.
+  Swift extensions.
                    DESC
 
   s.homepage     = "https://github.com/ZengR/RyzeExtension"
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Sources", "RyzeExtensionDemo/Sources/**/*.{h,m}"
+  s.source_files  = "Sources", "RyzeExtensionDemo/Sources/**/*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
