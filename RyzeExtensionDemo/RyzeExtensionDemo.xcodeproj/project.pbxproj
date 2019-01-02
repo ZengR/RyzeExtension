@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEF4ECB921DC609F00F87549 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF4ECB821DC609F00F87549 /* AppDelegate.swift */; };
+		AEF4ECBB21DC609F00F87549 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF4ECBA21DC609F00F87549 /* ViewController.swift */; };
+		AEF4ECBE21DC609F00F87549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF4ECBC21DC609F00F87549 /* Main.storyboard */; };
+		AEF4ECC021DC60A100F87549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF4ECBF21DC60A100F87549 /* Assets.xcassets */; };
+		AEF4ECC321DC60A100F87549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF4ECC121DC60A100F87549 /* LaunchScreen.storyboard */; };
+		AEF4ECCE21DC60A100F87549 /* RyzeExtensionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF4ECCD21DC60A100F87549 /* RyzeExtensionDemoTests.swift */; };
+		AEF4ECD921DC60A100F87549 /* RyzeExtensionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF4ECD821DC60A100F87549 /* RyzeExtensionDemoUITests.swift */; };
+		AEF4ECE921DC612800F87549 /* UIControlExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF4ECE821DC612800F87549 /* UIControlExtensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEF4ECCA21DC60A100F87549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF4ECAD21DC609F00F87549 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF4ECB421DC609F00F87549;
+			remoteInfo = RyzeExtensionDemo;
+		};
+		AEF4ECD521DC60A100F87549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF4ECAD21DC609F00F87549 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF4ECB421DC609F00F87549;
+			remoteInfo = RyzeExtensionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEF4ECB521DC609F00F87549 /* RyzeExtensionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RyzeExtensionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF4ECB821DC609F00F87549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEF4ECBA21DC609F00F87549 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEF4ECBD21DC609F00F87549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEF4ECBF21DC60A100F87549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEF4ECC221DC60A100F87549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEF4ECC421DC60A100F87549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF4ECC921DC60A100F87549 /* RyzeExtensionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyzeExtensionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF4ECCD21DC60A100F87549 /* RyzeExtensionDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyzeExtensionDemoTests.swift; sourceTree = "<group>"; };
+		AEF4ECCF21DC60A100F87549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF4ECD421DC60A100F87549 /* RyzeExtensionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RyzeExtensionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF4ECD821DC60A100F87549 /* RyzeExtensionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RyzeExtensionDemoUITests.swift; sourceTree = "<group>"; };
+		AEF4ECDA21DC60A100F87549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF4ECE821DC612800F87549 /* UIControlExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControlExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEF4ECB221DC609F00F87549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF4ECC621DC60A100F87549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF4ECD121DC60A100F87549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEF4ECAC21DC609F00F87549 = {
+			isa = PBXGroup;
+			children = (
+				AEF4ECE621DC60E600F87549 /* Sources */,
+				AEF4ECB721DC609F00F87549 /* RyzeExtensionDemo */,
+				AEF4ECCC21DC60A100F87549 /* RyzeExtensionDemoTests */,
+				AEF4ECD721DC60A100F87549 /* RyzeExtensionDemoUITests */,
+				AEF4ECB621DC609F00F87549 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEF4ECB621DC609F00F87549 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF4ECB521DC609F00F87549 /* RyzeExtensionDemo.app */,
+				AEF4ECC921DC60A100F87549 /* RyzeExtensionDemoTests.xctest */,
+				AEF4ECD421DC60A100F87549 /* RyzeExtensionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF4ECB721DC609F00F87549 /* RyzeExtensionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AEF4ECB821DC609F00F87549 /* AppDelegate.swift */,
+				AEF4ECBA21DC609F00F87549 /* ViewController.swift */,
+				AEF4ECBC21DC609F00F87549 /* Main.storyboard */,
+				AEF4ECBF21DC60A100F87549 /* Assets.xcassets */,
+				AEF4ECC121DC60A100F87549 /* LaunchScreen.storyboard */,
+				AEF4ECC421DC60A100F87549 /* Info.plist */,
+			);
+			path = RyzeExtensionDemo;
+			sourceTree = "<group>";
+		};
+		AEF4ECCC21DC60A100F87549 /* RyzeExtensionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF4ECCD21DC60A100F87549 /* RyzeExtensionDemoTests.swift */,
+				AEF4ECCF21DC60A100F87549 /* Info.plist */,
+			);
+			path = RyzeExtensionDemoTests;
+			sourceTree = "<group>";
+		};
+		AEF4ECD721DC60A100F87549 /* RyzeExtensionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF4ECD821DC60A100F87549 /* RyzeExtensionDemoUITests.swift */,
+				AEF4ECDA21DC60A100F87549 /* Info.plist */,
+			);
+			path = RyzeExtensionDemoUITests;
+			sourceTree = "<group>";
+		};
+		AEF4ECE621DC60E600F87549 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AEF4ECE721DC611100F87549 /* UIKit */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AEF4ECE721DC611100F87549 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AEF4ECE821DC612800F87549 /* UIControlExtensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEF4ECB421DC609F00F87549 /* RyzeExtensionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF4ECDD21DC60A100F87549 /* Build configuration list for PBXNativeTarget "RyzeExtensionDemo" */;
+			buildPhases = (
+				AEF4ECB121DC609F00F87549 /* Sources */,
+				AEF4ECB221DC609F00F87549 /* Frameworks */,
+				AEF4ECB321DC609F00F87549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RyzeExtensionDemo;
+			productName = RyzeExtensionDemo;
+			productReference = AEF4ECB521DC609F00F87549 /* RyzeExtensionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEF4ECC821DC60A100F87549 /* RyzeExtensionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF4ECE021DC60A100F87549 /* Build configuration list for PBXNativeTarget "RyzeExtensionDemoTests" */;
+			buildPhases = (
+				AEF4ECC521DC60A100F87549 /* Sources */,
+				AEF4ECC621DC60A100F87549 /* Frameworks */,
+				AEF4ECC721DC60A100F87549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF4ECCB21DC60A100F87549 /* PBXTargetDependency */,
+			);
+			name = RyzeExtensionDemoTests;
+			productName = RyzeExtensionDemoTests;
+			productReference = AEF4ECC921DC60A100F87549 /* RyzeExtensionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEF4ECD321DC60A100F87549 /* RyzeExtensionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF4ECE321DC60A100F87549 /* Build configuration list for PBXNativeTarget "RyzeExtensionDemoUITests" */;
+			buildPhases = (
+				AEF4ECD021DC60A100F87549 /* Sources */,
+				AEF4ECD121DC60A100F87549 /* Frameworks */,
+				AEF4ECD221DC60A100F87549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF4ECD621DC60A100F87549 /* PBXTargetDependency */,
+			);
+			name = RyzeExtensionDemoUITests;
+			productName = RyzeExtensionDemoUITests;
+			productReference = AEF4ECD421DC60A100F87549 /* RyzeExtensionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEF4ECAD21DC609F00F87549 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ryze Zeng";
+				TargetAttributes = {
+					AEF4ECB421DC609F00F87549 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					AEF4ECC821DC60A100F87549 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AEF4ECB421DC609F00F87549;
+					};
+					AEF4ECD321DC60A100F87549 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = AEF4ECB421DC609F00F87549;
+					};
+				};
+			};
+			buildConfigurationList = AEF4ECB021DC609F00F87549 /* Build configuration list for PBXProject "RyzeExtensionDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEF4ECAC21DC609F00F87549;
+			productRefGroup = AEF4ECB621DC609F00F87549 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEF4ECB421DC609F00F87549 /* RyzeExtensionDemo */,
+				AEF4ECC821DC60A100F87549 /* RyzeExtensionDemoTests */,
+				AEF4ECD321DC60A100F87549 /* RyzeExtensionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEF4ECB321DC609F00F87549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF4ECC321DC60A100F87549 /* LaunchScreen.storyboard in Resources */,
+				AEF4ECC021DC60A100F87549 /* Assets.xcassets in Resources */,
+				AEF4ECBE21DC609F00F87549 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF4ECC721DC60A100F87549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF4ECD221DC60A100F87549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEF4ECB121DC609F00F87549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF4ECBB21DC609F00F87549 /* ViewController.swift in Sources */,
+				AEF4ECB921DC609F00F87549 /* AppDelegate.swift in Sources */,
+				AEF4ECE921DC612800F87549 /* UIControlExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF4ECC521DC60A100F87549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF4ECCE21DC60A100F87549 /* RyzeExtensionDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF4ECD021DC60A100F87549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF4ECD921DC60A100F87549 /* RyzeExtensionDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEF4ECCB21DC60A100F87549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF4ECB421DC609F00F87549 /* RyzeExtensionDemo */;
+			targetProxy = AEF4ECCA21DC60A100F87549 /* PBXContainerItemProxy */;
+		};
+		AEF4ECD621DC60A100F87549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF4ECB421DC609F00F87549 /* RyzeExtensionDemo */;
+			targetProxy = AEF4ECD521DC60A100F87549 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEF4ECBC21DC609F00F87549 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF4ECBD21DC609F00F87549 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEF4ECC121DC60A100F87549 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF4ECC221DC60A100F87549 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEF4ECDB21DC60A100F87549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEF4ECDC21DC60A100F87549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEF4ECDE21DC60A100F87549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z248FNMYM9;
+				INFOPLIST_FILE = RyzeExtensionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryze-Zeng.RyzeExtensionDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEF4ECDF21DC60A100F87549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z248FNMYM9;
+				INFOPLIST_FILE = RyzeExtensionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryze-Zeng.RyzeExtensionDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEF4ECE121DC60A100F87549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z248FNMYM9;
+				INFOPLIST_FILE = RyzeExtensionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryze-Zeng.RyzeExtensionDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RyzeExtensionDemo.app/RyzeExtensionDemo";
+			};
+			name = Debug;
+		};
+		AEF4ECE221DC60A100F87549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z248FNMYM9;
+				INFOPLIST_FILE = RyzeExtensionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryze-Zeng.RyzeExtensionDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RyzeExtensionDemo.app/RyzeExtensionDemo";
+			};
+			name = Release;
+		};
+		AEF4ECE421DC60A100F87549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z248FNMYM9;
+				INFOPLIST_FILE = RyzeExtensionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryze-Zeng.RyzeExtensionDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RyzeExtensionDemo;
+			};
+			name = Debug;
+		};
+		AEF4ECE521DC60A100F87549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z248FNMYM9;
+				INFOPLIST_FILE = RyzeExtensionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ryze-Zeng.RyzeExtensionDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RyzeExtensionDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEF4ECB021DC609F00F87549 /* Build configuration list for PBXProject "RyzeExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF4ECDB21DC60A100F87549 /* Debug */,
+				AEF4ECDC21DC60A100F87549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF4ECDD21DC60A100F87549 /* Build configuration list for PBXNativeTarget "RyzeExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF4ECDE21DC60A100F87549 /* Debug */,
+				AEF4ECDF21DC60A100F87549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF4ECE021DC60A100F87549 /* Build configuration list for PBXNativeTarget "RyzeExtensionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF4ECE121DC60A100F87549 /* Debug */,
+				AEF4ECE221DC60A100F87549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF4ECE321DC60A100F87549 /* Build configuration list for PBXNativeTarget "RyzeExtensionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF4ECE421DC60A100F87549 /* Debug */,
+				AEF4ECE521DC60A100F87549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEF4ECAD21DC609F00F87549 /* Project object */;
+}
